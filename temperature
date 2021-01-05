@@ -1,0 +1,12 @@
+// variable kelvin with constant value 293.
+const kelvin = 293;
+//variable kelvin minus 273 is constant value celcius.
+const celsius = kelvin - 273;
+//variable type let.
+let fahrenheit = celsius * (9 / 5) + 32;
+//give variable a new value.
+fahrenheit = Math.floor(fahrenheit);
+console.log(`The temperature is ${fahrenheit} degrees Fahrenheit.`);
+
+//run
+//The temperature is 68 degrees Fahrenheit.
